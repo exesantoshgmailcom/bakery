@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('fonts/OpenSans-Regular.ttf')  format('truetype');       
+}
+
+.purchage-section  > h2 {margin:0px; padding:0px; font-family:OpenSans; text-align:justify; font-size:28px;}
+.purchage-section  > .star-rating{padding-top:10px;}
+.purchage-section  > .star-rating > i{font-size:18px; color:#FFE27F;}
+.purchage-section  > a.review{font-size:16px;}
+.purchage-section  > .key-spec li{font-family:OpenSans; font-size:16px;}
+.purchage-section  > .check-availability{text-align:center;}
+.purchage-section  > .check-availability i{font-size:15px;} 
+.purchage-section  > .check-availability label{font-family:OpenSans; font-size:12px;} 
+.purchage-section  > .check-availability input{max-width:100px;}
+.purchage-section  .regular-price{font-family:OpenSans; font-size:14px;}
+.purchage-section  .offer-price{font-family:OpenSans; font-size:34px; line-height:34px;}
+.purchage-section  .offer-label{font-family:OpenSans; font-size:12px; color:#237C27;}
+.purchage-section .badge{border-radius:60px; padding:22px 10px; border:1px solid #286090; background-color:#ffffff;}
+.purchage-section .badge .label{font-family:OpenSans; font-size:13px; color:#333;}
+.purchage-section .badge .value{font-size:40px; color:#333;}
+
+.purchage-about  h2{font-family:OpenSans; font-size:28px;}
+.purchage-about  p{font-family:OpenSans; font-size:13px;}
+.purchage-about  table{width:auto;}
+.purchage-about  table tr td{font-family:OpenSans; font-size:13px;}
+.purchage-about  span{font-family:OpenSans; font-size:13px;}
+.purchage-about i.star{font-size:15px; color:#FFE27F;}
+.comment-row{background-color:#F7F7F9; padding-top:10px; margin-bottom:5px;}
+.center-table{margin: 0 auto !important;float: none !important;}
+#carousel{display:block;}
+
+@media screen and (max-width: 991px) {
+	.purchage-section  > h2 {font-size:20px;}
+	.purchage-section  > .star-rating > i{font-size:16px;}
+	.purchage-section  > a.review{font-size:14px;}
+	.purchage-section  > .key-spec li{font-size:13px;}
+}
+@media screen and (max-width: 767px) {
+	.purchage-section {padding-top:15px;}
+	.purchage-about  h2{font-size:20px;}
+	.purchage-section  > .check-availability label{font-size:11px;}
+	.purchage-section  .regular-price{font-size:11px;}
+	#carousel{display:none;}
+}
